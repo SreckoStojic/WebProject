@@ -1,0 +1,44 @@
+{"deliverers" : [
+	{
+		"id" : "1",
+		"name" : "bed delivery",
+		"description" : "WERTY",
+		"country" : ["Germany","Croatia","France"],
+		"deliverPrice" : 123.45
+	},
+	{
+		"id" : "2",
+		"name" : "kitchen delivery",
+		"description" : "WERTY",
+		"country" : ["Germany","Fiji","France"],
+		"deliverPrice" : 123.45
+	},
+	{
+		"id" : "3",
+		"name" : "bed assembly",
+		"description" : "WERTY",
+		"country" : ["usa","serbia","bih"],
+		"deliverPrice" : 123.45
+	},
+	{
+		"id" : "4",
+		"name" : "chair assembly",
+		"description" : "WERTY",
+		"country" : ["Egypt","Croatia","Fiji"],
+		"deliverPrice" : 123.45
+	},
+	{
+		"id" : "5",
+		"name" : "Computer table assembly",
+		"description" : "WERTY",
+		"country" : ["Egypt","France","Germany"],
+		"deliverPrice" : 123.45
+	},
+	{
+		"id" : "6",
+		"name" : "table qx delivery",
+		"description" : "WERTY",
+		"country" : ["Egypt","France","Germany"],
+		"deliverPrice" : 123.45
+	}
+]}

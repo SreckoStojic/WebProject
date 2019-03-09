@@ -1,0 +1,68 @@
+{"categories" : [
+	{
+		"name" : "other",
+		"description" : "...",
+		"subcategory" : null
+	},
+	{
+		"name" : "furniture",
+		"description" : "...",
+		"subcategory" : null
+	},
+	{
+		"name" : "food",
+		"description" : "...",
+		"subcategory" : "furniture"
+	},
+	{
+		"name" : "Relaxing",
+		"description" : "...",
+		"subcategory" : "furniture"
+	},
+	{
+		"name" : "Tables",
+		"description" : "...",
+		"subcategory" : "furniture"
+	},
+	{
+		"name" : "Dining tables",
+		"description" : "...",
+		"subcategory" : "Tables"
+	},
+	{
+		"name" : "Coffe tables",
+		"description" : "...",
+		"subcategory" : "Tables"
+	},
+	
+	{
+		"name" : "Office Contract funiture",
+		"description" : "...",
+		"subcategory" : null
+	},
+	{
+		"name" : "Library furniture",
+		"description" : "...",
+		"subcategory" : "Office Contract funiture"
+	},
+	{
+		"name" : "Office chairs",
+		"description" : "...",
+		"subcategory" : "Office Contract funiture"
+	},
+	{
+		"name" : "Desk Workstations",
+		"description" : "...",
+		"subcategory" : "Office Contract funiture"
+	},
+	{
+		"name" : "Library shelving systems",
+		"description" : "...",
+		"subcategory" : "Library furniture"
+	},
+	{
+		"name" : "Book displays holder",
+		"description" : "...",
+		"subcategory" : "Library furniture"
+	}
+]}

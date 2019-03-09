@@ -1,0 +1,35 @@
+{"shops" : [
+	{
+		"id" : "1",
+		"name" : "Style",
+		"address" : "Pine St 55",
+		"country" : "Germany",
+		"contact" : "+38759600000",
+		"email" : "style@mail.com",
+		"manager" : "djura",
+		"mark" : 2,
+		"review" : ["333","444"]
+	},
+	{
+		"id" : "2",
+		"name" : "Dallas",
+		"address" : "Rose St 34",
+		"country" : "Egypt",
+		"contact" : "+38759600010",
+		"email" : "dallas@mail.com",
+		"manager" : "djura",
+		"mark" : 3,
+		"review" : ["444"]
+	},
+	{
+		"id" : "3",
+		"name" : "Forma Ideale",
+		"address" : "Green St 59",
+		"country" : "Croatia",
+		"contact" : "+38759602000",
+		"email" : "forma.ideale@mail.com",
+		"manager" : "manager",
+		"mark" : 2,
+		"review" : []
+	}
+]}

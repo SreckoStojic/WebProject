@@ -1,0 +1,53 @@
+{"products" : [
+	{
+		"id" : "1",
+		"name" : "bed",
+		"color" : "#008040",
+		"dimensions" : [2,2,2],
+		"weight" : 3,
+		"country" : "Italy",
+		"producer" : "WERTY",
+		"price" : 123.45,
+		"category" : "furniture",
+		"image" : "/WebProject/upload/images/bed.jpg",
+		"video" : "",
+		"mark" : 5,
+		"review" : ["222"],
+		"quantity" : 2,
+		"shopName" : "Style"
+	},
+	{
+		"id" : "12",
+		"name" : "milk",
+		"color" : "#008040",
+		"dimensions" : [2,2,2],
+		"weight" : 1,
+		"country" : "Serbia",
+		"producer" : "WERTY",
+		"price" : 3.45,
+		"category" : "food",
+		"image" : "/WebProject/upload/images/milk.jpg",
+		"video" : "",
+		"mark" : 3,
+		"review" : ["111"],
+		"quantity" : 2,
+		"shopName" : "Dallas"
+	},
+	{
+		"id" : "123",
+		"name" : "chocolate",
+		"color" : "#008040",
+		"dimensions" : [2,2,2],
+		"weight" : 4,
+		"country" : "Sweden",
+		"producer" : "WERTY",
+		"price" : 13.45,
+		"category" : "food",
+		"image" : "/WebProject/upload/images/chocolate.jpg",
+		"video" : "",
+		"mark" : 5,
+		"review" : ["333","444"],
+		"quantity" : 2,
+		"shopName" : "Forma Ideale"
+	}
+]}

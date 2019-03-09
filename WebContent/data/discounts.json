@@ -1,0 +1,22 @@
+{"discounts" : [
+	{
+		"id" : "0",
+		"start" : "2016-10-21",
+		"end" : "2016-10-23",
+		"percent" : 20,
+		"categoryDiscount" : 0,
+		"product" : "bed",
+		"category" : "",
+		"shop" : "Style"
+	},
+	{
+		"id" : "1",
+		"start" : "2016-10-21",
+		"end" : "2016-10-23",
+		"percent" : 25,
+		"categoryDiscount" : 1,
+		"product" : "",
+		"category" : "food",
+		"shop" : "Forma Ideale"
+	}
+]}

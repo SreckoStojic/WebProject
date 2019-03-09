@@ -1,0 +1,34 @@
+{"reviews" : [
+	{
+		"id" : "111",
+		"user" : "laza",
+		"date" : "2016-10-21",
+		"markPositive" : 3,
+		"markNegative" : 3,
+		"comment" : "Dobro mlijeko"
+	},
+	{
+		"id" : "222",
+		"user" : "laza",
+		"date" : "2016-11-21",
+		"markPositive" : 2,
+		"markNegative" : 3,
+		"comment" : "Udoban krevet"
+	},
+	{
+		"id" : "333",
+		"user" : "laza",
+		"date" : "2016-12-21",
+		"markPositive" : 1,
+		"markNegative" : 2,
+		"comment" : "Ukusna cokolada"
+	},
+	{
+		"id" : "444",
+		"user" : "laza",
+		"date" : "2016-12-21",
+		"markPositive" : 1,
+		"markNegative" : 2,
+		"comment" : "Ukusna cokolada od jagode"
+	}
+]}

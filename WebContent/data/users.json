@@ -1,0 +1,58 @@
+{"users" : [
+	{
+		"username" : "pera",
+		"password" : "pera",
+		"name" : "Petar",
+		"surname" : "Petrovic",
+		"role" : 0,
+		"contact" : "001122334455",
+		"email" : "pera@mail.com",
+		"address" : "Novi Sad",
+		"country" : "Serbia"
+	},
+	{
+		"username" : "mika",
+		"password" : "mika",
+		"name" : "Miodrag",
+		"surname" : "Mikic",
+		"role" : 0,
+		"contact" : "001122334455",
+		"email" : "mika@mail.com",
+		"address" : "New York",
+		"country" : "USA"
+	},
+	{
+		"username" : "laza",
+		"password" : "laza",
+		"name" : "Lazar",
+		"surname" : "Lazarevic",
+		"role" : 1,
+		"contact" : "001122334455",
+		"email" : "laza@mail.com",
+		"address" : "Nevesinje",
+		"country" : "BiH"
+	},
+	{
+		"username" : "djura",
+		"password" : "djura",
+		"name" : "Djura",
+		"surname" : "Djuric",
+		"role" : 2,
+		"contact" : "001122334455",
+		"email" : "djura@mail.com",
+		"address" : "Novi Sad",
+		"country" : "Serbia"
+	},
+	{
+		"username" : "manager",
+		"password" : "manager",
+		"name" : "Djura",
+		"surname" : "Djuric",
+		"role" : 2,
+		"contact" : "543001122334455",
+		"email" : "man@mail.com",
+		"address" : "Novi Sad",
+		"country" : "Serbia"
+	}
+]
+}

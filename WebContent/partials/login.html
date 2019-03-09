@@ -1,0 +1,101 @@
+<head>
+	<style>
+		#centered {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  margin: -150px 0 0 -150px;
+		}
+	</style>
+</head>
+
+<div ng-controller="usersController" layout="column" layout-fill ng-cloak>
+
+	
+		<md-toolbar>
+			<div class="md-toolbar-tools">
+				<h2>eCommerce</h2>
+				<span flex></span>
+			</div>
+		</md-toolbar>
+		
+	<div id="centered">
+		<md-content layout-padding layout-gt-sm="column" style="width:300px">
+<!-- 				<md-input-container class="md-block"> -->
+					<label>Username</label>
+					<input md-no-asterisk ng-model="user.username">
+<!-- 				</md-input-container> -->
+			
+				<md-input-container class="md-block">
+					<label>Password</label>
+					<input type="password" md-no-asterisk ng-model="user.password">
+				</md-input-container>
+		</md-content>
+		
+		
+		<section layout="row" layout-align="center">
+			<md-button class="md-raised md-primary" ng-click="login(user)">Log in</md-button>
+			<md-button class="md-raised md-primary" ng-click="openRegisterDialog()">Register</md-button>
+		</section>
+	</div>
+</div>
+
+<script type="text/ng-template" id="registerModal.html">
+	<div class="modal-header">
+    	<h3 class="modal-title">Registration</h3>
+	</div>
+	<div class="modal-body">
+		<div class="row-fluid">
+			<div class="span6">
+				<md-input-container class="md-block">
+					<label>Username</label>
+					<input md-no-asterisk ng-model="newUser.username">
+				</md-input-container>
+				
+				<md-input-container class="md-block">
+					<label>Password</label>
+					<input type="password" md-no-asterisk ng-model="newUser.password">
+				</md-input-container>
+				
+				
+				<md-input-container class="md-block">
+					<label>Name</label>
+					<input md-no-asterisk ng-model="newUser.name">
+				</md-input-container>
+
+				<md-input-container class="md-block">
+					<label>Surname</label>
+					<input md-no-asterisk ng-model="newUser.surname">
+				</md-input-container>
+				
+				<md-input-container class="md-block">
+					<label>Contact</label>
+					<input md-no-asterisk ng-model="newUser.contact">
+				</md-input-container>
+				
+				<md-input-container class="md-block">
+					<label>Email</label>
+					<input md-no-asterisk ng-model="newUser.email">
+				</md-input-container>
+				
+				<md-input-container class="md-block">
+					<label>Address</label>
+					<input md-no-asterisk ng-model="newUser.address">
+				</md-input-container>
+				
+				<select style="width : 200px" ng-model="newUser.country">
+					<option value="" disabled selected>Country</option>
+					<option ng-value="country.name" ng-repeat="country in countries">{{country.name}}</option>
+				</select>
+
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<md-button class="md-raised md-primary" ng-click="ok(newUser)">Register</md-button>
+		<md-button class="md-raised md-primary" ng-click="cancel()">Cancel</md-button>
+    	
+	</div>
+
+</script>
+
